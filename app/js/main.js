@@ -1,6 +1,14 @@
 $(function () {
+
+    $('.works__inner-btns button').on('click', function () {
+        $('.works__inner-btns button').removeClass('active');
+        $(this).toggleClass('active');
+        console.log(this);
+    });
+
+
     $('.header__localization-link').on('click', function () {
-        $('.header__localization-link').toggleClass('active');
+        $(this).toggleClass('active');
         $('.dropdown').slideToggle();
     });
 
@@ -12,4 +20,9 @@ $(function () {
     });
 
 
+    var mixer = mixitup('.works-container', {
+        selectors: {
+            target: '.works__item'
+        }
+    });
 });
