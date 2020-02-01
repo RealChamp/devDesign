@@ -19,6 +19,17 @@ $(function () {
 
     });
 
+    $('.testimonials-container').slick({
+        arrows: false,
+        dots: true,
+        speed: 1500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 6500,
+
+    });
+
 
     var mixer = mixitup('.works-container', {
         selectors: {
