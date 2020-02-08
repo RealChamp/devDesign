@@ -1,5 +1,15 @@
 $(function () {
 
+    $('.burger-menu').on('click', function () {
+        $('.header__navigation').slideToggle();
+    });
+
+    $(window).resize(function () {
+        if ($(window).width() >= 1080) {
+            $('.header__navigation').removeAttr('style')
+        }
+    });
+
     $('.works__inner-btns button').on('click', function () {
         $('.works__inner-btns button').removeClass('active');
         $(this).toggleClass('active');
@@ -26,8 +36,22 @@ $(function () {
         slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: true,
-        autoplaySpeed: 6500,
-
+        autoplaySpeed: 5500,
+        responsive: [{
+                breakpoint: 1630,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 1120,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
     });
 
 
@@ -36,4 +60,8 @@ $(function () {
             target: '.works__item'
         }
     });
+
+
+
+
 });

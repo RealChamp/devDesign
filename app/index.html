@@ -14,27 +14,43 @@
 <body>
     <header class="header">
         <div class="container-fluid">
-            <div class="header__menu">
+
+            <div class="header__inner">
 
                 <a href="index.html" class="header__menu-logo">
-                    <img src="img/logo.2.png" alt="logotype">
+                    <picture>
+                        <source srcset="img/logo-mini.png" media="(max-width: 680px)">
+                        <img src="img/logo.2.png" alt="">
+                    </picture>
                 </a>
 
-                <ul class="header__navigation">
-                    <li class="header__navigation-item"><a class="header__navigation-link" href="#">Home</a></li>
-                    <li class="header__navigation-item"><a class="header__navigation-link" href="#">Services</a></li>
-                    <li class="header__navigation-item"><a class="header__navigation-link" href="#">Works</a></li>
-                    <li class="header__navigation-item"><a class="header__navigation-link" href="#">About</a></li>
-                    <li class="header__navigation-item"><a class="header__navigation-link" href="#">Clients</a></li>
-                    <li class="header__navigation-item"><a class="header__navigation-link" href="#">Blog</a></li>
-                    <li class="header__navigation-item"><a class="header__navigation-link" href="#">Contact</a></li>
-                    <li class="header__localization-item"><span class="header__localization-link">En</span>
-                        <ul class="dropdown">
-                            <li><a href="#">Ru</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav class="header__menu">
+
+                    <ul class="header__navigation">
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Home</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">About</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Services</a>
+                        </li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Works</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Blog</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Clients</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-link" href="#">Contact</a></li>
+                        <li class="header__localization-item"><span class="header__localization-link">En</span>
+                            <ul class="dropdown">
+                                <li><a href="#">Ru</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+
+
 
             <div class="slider-container">
 
@@ -48,17 +64,15 @@
                                     <span class="bold">digital agency</span>
                                 </div>
                                 <div class="slider-item__info-text">
-                                    The Supreme Court on Saturday cleared the way for the construction of a Ram Temple
+                                    The Supreme Court on Saturday cleared the way for the construction of a Ram
+                                    Temple
                                     at
-                                    the disputed site at Ayodhya, and directed the Centre to allot a 5-acre plot to the
+                                    the disputed site at Ayodhya, and directed the Centre to allot a 5-acre plot to
+                                    the
                                     Sunni
                                 </div>
                                 <a href="#" class="slider-item__info-btn">View Project</a>
                             </div>
-                        </div>
-
-                        <div class="slider-item__picture">
-                            <img class="slider-item__img" src="img/header-item.svg" alt="digital picture">
                         </div>
 
                     </div>
@@ -74,18 +88,17 @@
                                     <span class="bold">digital agency</span>
                                 </div>
                                 <div class="slider-item__info-text">
-                                    The Supreme Court on Saturday cleared the way for the construction of a Ram Temple
+                                    The Supreme Court on Saturday cleared the way for the construction of a Ram
+                                    Temple
                                     at
-                                    the disputed site at Ayodhya, and directed the Centre to allot a 5-acre plot to the
+                                    the disputed site at Ayodhya, and directed the Centre to allot a 5-acre plot to
+                                    the
                                     Sunni
                                 </div>
                                 <a href="#" class="slider-item__info-btn">View Project</a>
                             </div>
                         </div>
 
-                        <div class="slider-item__picture">
-                            <img class="slider-item__img" src="img/header-item.svg" alt="digital picture">
-                        </div>
 
                     </div>
                 </div>
@@ -100,32 +113,36 @@
                                     <span class="bold">digital agency</span>
                                 </div>
                                 <div class="slider-item__info-text">
-                                    The Supreme Court on Saturday cleared the way for the construction of a Ram Temple
+                                    The Supreme Court on Saturday cleared the way for the construction of a Ram
+                                    Temple
                                     at
-                                    the disputed site at Ayodhya, and directed the Centre to allot a 5-acre plot to the
+                                    the disputed site at Ayodhya, and directed the Centre to allot a 5-acre plot to
+                                    the
                                     Sunni
                                 </div>
                                 <a href="#" class="slider-item__info-btn">View Project</a>
                             </div>
                         </div>
 
-                        <div class="slider-item__picture">
-                            <img class="slider-item__img" src="img/header-item.svg" alt="digital picture">
-                        </div>
                     </div>
                 </div>
             </div>
 
+
+            <img class="header__img" src="img/header-item.svg" alt="" class="header__img">
+
+
         </div>
     </header>
+
     <section class="features pt125">
         <div class="container-fluid">
 
             <div class="features__inner">
 
-                <div class="features__img-wrapper">
-                    <img class="features__img" src="img/about-us.svg" alt="about us picture">
-                </div>
+
+                <img class="features__img" src="img/about-us.svg" alt="about us picture">
+
 
                 <div class="features__info">
 
@@ -195,6 +212,7 @@
             </div>
         </div>
     </section>
+
     <section class="services pt125">
         <div class="container-fluid">
 
@@ -309,6 +327,7 @@
 
         </div>
     </section>
+
     <section class="works pt125">
         <div class="container-fluid">
 
@@ -356,9 +375,9 @@
 
                     </div>
 
-                    <div class="works__item-wrapper">
-                        <img class="works__item-wrapper__img" src="img/works1.jpg" alt="">
-                    </div>
+
+                    <img class="works__item-wrapper__img" src="img/works1.jpg" alt="">
+
                 </div>
 
                 <div class="works__item mix category-branding category-design category-website" data-order="2">
@@ -379,9 +398,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="works__item-wrapper">
-                        <img class="works__item-wrapper__img" src="img/works2.jpg" alt="">
-                    </div>
+
+                    <img class="works__item-wrapper__img" src="img/works2.jpg" alt="">
+
 
                 </div>
 
@@ -389,28 +408,28 @@
 
                 <div class="works__item mix category-ux category-seo category-design">
 
-                    <div class="works__item-wrapper">
 
-                        <div class="white-bg">
 
-                            <div class="white-bg__links">
-                                <a class="white-bg__link" href="#"></a>
-                                <a class="white-bg__link" href="#"></a>
-                            </div>
+                    <div class="white-bg">
 
-                            <div class="white-bg__info">
-                                <div class="white-bg__info-title">
-                                    Photoshop Mock Up
-                                </div>
-                                <div class="white-bg__info-categories">
-                                    Ux/Ui <span>⋅</span> Design <span>⋅</span> Seo
-                                </div>
-                            </div>
-
+                        <div class="white-bg__links">
+                            <a class="white-bg__link" href="#"></a>
+                            <a class="white-bg__link" href="#"></a>
                         </div>
 
-                        <img class="works__item-wrapper__img" src="img/works3.jpg" alt="">
+                        <div class="white-bg__info">
+                            <div class="white-bg__info-title">
+                                Photoshop Mock Up
+                            </div>
+                            <div class="white-bg__info-categories">
+                                Ux/Ui <span>⋅</span> Design <span>⋅</span> Seo
+                            </div>
+                        </div>
+
                     </div>
+
+                    <img class="works__item-wrapper__img" src="img/works3.jpg" alt="">
+
                 </div>
 
                 <div class="works__item mix category-seo category-ux">
@@ -433,9 +452,9 @@
 
                     </div>
 
-                    <div class="works__item-wrapper">
-                        <img class="works__item-wrapper__img" src="img/works4.jpg" alt="">
-                    </div>
+
+                    <img class="works__item-wrapper__img" src="img/works4.jpg" alt="">
+
                 </div>
 
                 <div class="works__item mix category-design category-website">
@@ -458,9 +477,9 @@
 
                     </div>
 
-                    <div class="works__item-wrapper">
-                        <img class="works__item-wrapper__img" src="img/works5.jpg" alt="">
-                    </div>
+
+                    <img class="works__item-wrapper__img" src="img/works5.jpg" alt="">
+
                 </div>
 
                 <div class="works__item mix category-branding category-seo category-ux">
@@ -483,9 +502,9 @@
 
                     </div>
 
-                    <div class="works__item-wrapper">
-                        <img class="works__item-wrapper__img" src="img/works6.jpg" alt="">
-                    </div>
+
+                    <img class="works__item-wrapper__img" src="img/works6.jpg" alt="">
+
                 </div>
 
                 <div class="works__item mix category-branding">
@@ -508,9 +527,9 @@
 
                     </div>
 
-                    <div class="works__item-wrapper">
-                        <img class="works__item-wrapper__img" src="img/works7.jpg" alt="">
-                    </div>
+
+                    <img class="works__item-wrapper__img" src="img/works7.jpg" alt="">
+
                 </div>
 
                 <div class="works__item mix category-seo category-website category-design category-branding">
@@ -534,9 +553,9 @@
 
                     </div>
 
-                    <div class="works__item-wrapper">
-                        <img class="works__item-wrapper__img" src="img/works8.jpg" alt="">
-                    </div>
+
+                    <img class="works__item-wrapper__img" src="img/works8.jpg" alt="">
+
                 </div>
 
             </div>
@@ -612,6 +631,7 @@
 
         </div>
     </section>
+
     <section class="news pt125">
         <div class="container-fluid">
 
@@ -626,7 +646,7 @@
 
             <div class="news-container">
 
-                <div class="news__item">
+                <div class="news__item not">
 
                     <div class="news__item-img__wrapper">
                         <img src="img/news1.jpg" alt="" class="news__item-img">
@@ -643,16 +663,18 @@
                         </div>
 
                         <div class="news__item-info__text">
-                            Mr Sondland returned to Congress to revise earlier testimony, in which he denied that any.
+                            Mr Sondland returned to Congress to revise earlier testimony, in which he denied that
+                            any.
                         </div>
 
                         <a href="#" class="news__item-info__link">Read More</a>
 
                     </div>
 
+
                 </div>
 
-                <div class="news__item">
+                <div class="news__item not">
 
                     <div class="news__item-img__wrapper">
                         <img src="img/news2.jpg" alt="" class="news__item-img">
@@ -734,6 +756,7 @@
 
         </div>
     </section>
+
     <section class="video">
         <div class="container-fluid">
 
@@ -769,7 +792,6 @@
 
         </div>
     </section>
-
 
     <section class="testimonials pt125">
         <div class="container-fluid">
@@ -807,7 +829,9 @@
 
                     </div>
 
-                    <img src="img/person2.png" alt="person" class="testimonials__item-img">
+                    <div class="testimonials__img-wrapper">
+                        <img src="img/person2.png" alt="person" class="testimonials__item-img">
+                    </div>
 
                 </div>
 
@@ -833,7 +857,10 @@
 
                     </div>
 
-                    <img src="img/person1.png" alt="person" class="testimonials__item-img">
+
+                    <div class="testimonials__img-wrapper">
+                        <img src="img/person1.png" alt="person" class="testimonials__item-img">
+                    </div>
 
                 </div>
 
@@ -859,7 +886,10 @@
 
                     </div>
 
-                    <img src="img/person3.png" alt="person" class="testimonials__item-img">
+
+                    <div class="testimonials__img-wrapper">
+                        <img src="img/person3.png" alt="person" class="testimonials__item-img">
+                    </div>
 
                 </div>
 
@@ -886,7 +916,10 @@
 
                     </div>
 
-                    <img src="img/person2.png" alt="person" class="testimonials__item-img">
+
+                    <div class="testimonials__img-wrapper">
+                        <img src="img/person2.png" alt="person" class="testimonials__item-img">
+                    </div>
 
                 </div>
 
@@ -912,7 +945,10 @@
 
                     </div>
 
-                    <img src="img/person1.png" alt="person" class="testimonials__item-img">
+
+                    <div class="testimonials__img-wrapper">
+                        <img src="img/person1.png" alt="person" class="testimonials__item-img">
+                    </div>
 
                 </div>
 
@@ -938,7 +974,41 @@
 
                     </div>
 
-                    <img src="img/person3.png" alt="person" class="testimonials__item-img">
+
+                    <div class="testimonials__img-wrapper">
+                        <img src="img/person3.png" alt="person" class="testimonials__item-img">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" style="background-image: url('img/contact.svg');">
+        <div class="container-fluid">
+            <div class="contact__inner">
+
+                <div class="contact__inner-info">
+
+
+                    <div class="sup-title">
+                        Get In Touch
+                    </div>
+
+                    <div class="title">
+                        Contact Us
+                    </div>
+
+
+                    <form class="contact__inner-info__form">
+                        <input class="contact__form-input" type="text" placeholder="Full Name">
+                        <input class="contact__form-input" type="text" placeholder="Topic">
+                        <input class="contact__form-input" type="Phone" placeholder="Phone Number">
+                        <input class="contact__form-input" type="email" placeholder="Email">
+                        <textarea class="contact__form-textarea" name="message" placeholder="Message"></textarea>
+                        <button class="contact__form-btn" type="submit">Contact Us</button>
+                    </form>
 
                 </div>
 
@@ -946,6 +1016,134 @@
 
         </div>
     </section>
+
+    <div class="blocks-wrapper">
+
+        <div class="design-block">
+            <div class="design-block__inner">
+                <div class="block__sup-title">
+                    Our Works
+                </div>
+
+                <div class="block__title">
+                    Design Skills
+                </div>
+
+                <a href="#" class="block__link">+</a>
+            </div>
+        </div>
+
+        <div class="work-block">
+            <div class="design-block__inner">
+                <div class="block__sup-title">
+                    Our Contacts
+                </div>
+
+                <div class="block__title">
+                    Let's Work
+                </div>
+
+                <a href="#" class="block__link">+</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+
+            <div class="footer__container">
+                <div class="footer__item">
+                    <div class="footer__about">
+
+                        <div class="footer__title">
+                            About
+                        </div>
+
+                        <div class="footer__about-text">
+                            Seeing it in black and white lays it out very clearly. The US military aid - plus a visit to
+                            the
+                            White House for the Ukrainian president - was the prize. But there would be no prize if the
+                            Ukrainians did not announce an investigation into the Bidens.
+                        </div>
+
+                        <ul class="footer__about-icons">
+                            <li class="footer__about-icons__item"><a class="icon-facebook" href="#"></a></li>
+                            <li class="footer__about-icons__item"><a class="icon-twitter" href="#"></a></li>
+                            <li class="footer__about-icons__item"><a class="icon-pinterest-p" href="#"></a></li>
+                            <li class="footer__about-icons__item"><a class="icon-linkedin" href="#"></a></li>
+                            <li class="footer__about-icons__item"><a class="icon-instagram" href="#"></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="footer__item">
+                    <div class="footer__contact">
+
+                        <div class="footer__title">
+                            Conatct Info
+                        </div>
+
+                        <ul class="footer__contact-list">
+                            <li class="street icon-map-o">
+                                485 New Devil Street,
+                                Northwest #205, USA
+                            </li>
+                            <li class="phone icon-phone">+7-919-83-89-422</li>
+                            <li class="email icon-envelope-o">Info@yourmail.com</li>
+                            <li class="whats-up icon-whatsapp">+7-919-83-89-422</li>
+                            <li class="time icon-clock-o">10:00 - 18:00</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="footer__item">
+                    <div class="footer__services">
+
+                        <div class="footer__title">
+                            Services
+                        </div>
+
+                        <div class="footer__services-list">
+                            <li class="footer__services-list__item"><a href="#">Services</a></li>
+                            <li class="footer__services-list__item"><a href="#">Works</a></li>
+                            <li class="footer__services-list__item"><a href="#">About</a></li>
+                            <li class="footer__services-list__item"><a href="#">Clients</a></li>
+                            <li class="footer__services-list__item"><a href="#">Blog</a></li>
+                            <li class="footer__services-list__item"><a href="#">Contact</a></li>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footer__item">
+                    <div class="footer__newsletter">
+
+                        <div class="footer__title">
+                            Sign Up Newsletter
+                        </div>
+
+                        <form class="footer__newsletter-form">
+                            <input type="text" placeholder="Enter Email">
+                            <button type="submit">Subscribe</button>
+                        </form>
+
+                        <div class="footer__newsletter-text">
+                            Sign up newsletter for getting latest news updates regularly.
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="sub-footer">
+        &copy; 2020 All Rights Reserved. Complete by Matvey Popov
+    </div>
 
 
 
