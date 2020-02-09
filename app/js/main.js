@@ -63,5 +63,45 @@ $(function () {
 
 
 
+    var wow = new WOW({
+        mobile: false,
+    });
+    wow.init();
 
+    $('.header__navigation a').on('click', function (e) {
+        if (this.hash !== '') {
+            e.preventDefault();
+
+            const hash = this.hash;
+
+            $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                },
+                800
+            );
+        }
+    });
+
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop()) {
+            $('.header__inner').addClass('bg-black');
+        } else {
+            $('.header__inner').removeClass('bg-black');
+        }
+    });
+
+
+    function backToTop() {
+        let button = $('.back-to-top');
+
+        $(window).on('scroll', () => {
+            if ($(this).scrollTop() >= 965) {
+                button.fadeIn();
+            } else {
+                button.fadeOut();
+            }
+        });
+    }
+
+    backToTop();
 });
